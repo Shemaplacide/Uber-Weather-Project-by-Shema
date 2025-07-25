@@ -146,6 +146,9 @@ To make exploring data easier, I added slicers (filters) you can click to zoom i
 - Peak vs Off-Peak hours
 
   ### 🖼️ **Power BI Screenshot Placeholder: Fare by Weather Condition**
+  
+## Note on Power BI Report Files:
+# Power BI project files (.pbix) can be very large because they include data, visuals, and metadata all in one. GitHub repositories have size limits and are designed mainly for code and small assets, so uploading full Power BI files can quickly use up your storage or exceed limits.
 
 *<img width="677" height="440" alt="Bigdata" src="https://github.com/user-attachments/assets/5553e704-ae9c-43d1-81d4-8fe5f7e3fa52" />
 *

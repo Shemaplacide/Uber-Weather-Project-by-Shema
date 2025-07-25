@@ -143,7 +143,12 @@ To make exploring data easier, I added slicers (filters) you can click to zoom i
 
 - Ride Period (Morning, Afternoon, etc.)  
 - Weekend vs Weekday  
-- Peak vs Off-Peak hours  
+- Peak vs Off-Peak hours
+
+  ### 🖼️ **Power BI Screenshot Placeholder: Fare by Weather Condition**
+
+*<img width="677" height="440" alt="Bigdata" src="https://github.com/user-attachments/assets/5553e704-ae9c-43d1-81d4-8fe5f7e3fa52" />
+*
 
 These let you drill down and compare trends in real time!
 

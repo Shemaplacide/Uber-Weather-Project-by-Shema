@@ -159,7 +159,7 @@ Power BI project files (.pbix) can be very large because they include data, visu
 (<img width="959" height="476" alt="Dashboard" src="https://github.com/user-attachments/assets/1d87f403-66ae-4475-873c-2f9f33cff54b" />
 )
 2. ✅ A **link to your Power BI Google Drive folder**
-3. You can view the full interactive Power BI report and .pbix files via the Google Drive link below:
+  You can view the full interactive Power BI report and .pbix files via the Google Drive link below:
 🔗 **([https://drive.google.com/drive/folders/15BNRsMvfSwASdMMGL-sunkBO0sLBOgon?usp=drive_link](https://drive.google.com/drive/folders/15BNRsMvfSwASdMMGL-sunkBO0sLBOgon?usp=drive_link))**
 
 

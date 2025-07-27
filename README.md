@@ -154,34 +154,15 @@ Power BI project files (.pbix) can be very large because they include data, visu
 *
 
 
-These let you drill down and compare trends in real time!
-
-Here's the **updated README** with **just two additions** as you asked:
-
-1. ✅ A **section for the Power BI dashboard image**
-2. ✅ A **link to your Power BI Google Drive folder**
-
-No other content has been changed.
-
----
-
----
-
 ## 📊 Power BI Dashboard Access and Visualization
-
-You can view the full interactive Power BI report and .pbix files via the Google Drive link below:
-
-🔗 **[View Power BI Report on Google Drive]([https://drive.google.com/drive/folders/15BNRsMvfSwASdMMGL-sunkBO0sLBOgon?usp=drive_link](https://drive.google.com/drive/folders/15BNRsMvfSwASdMMGL-sunkBO0sLBOgon?usp=drive_link))**
-
-### 🖼️ Power BI Dashboard Screenshot:
-
-*Paste your dashboard screenshot image below*
-
-![Dashboard Screenshot Placeholder](<img width="959" height="476" alt="Dashboard" src="https://github.com/user-attachments/assets/1d87f403-66ae-4475-873c-2f9f33cff54b" />
+1. ✅ A **section for the Power BI dashboard image**
+(<img width="959" height="476" alt="Dashboard" src="https://github.com/user-attachments/assets/1d87f403-66ae-4475-873c-2f9f33cff54b" />
 )
+2. ✅ A **link to your Power BI Google Drive folder**
+3. You can view the full interactive Power BI report and .pbix files via the Google Drive link below:
+🔗 **([https://drive.google.com/drive/folders/15BNRsMvfSwASdMMGL-sunkBO0sLBOgon?usp=drive_link](https://drive.google.com/drive/folders/15BNRsMvfSwASdMMGL-sunkBO0sLBOgon?usp=drive_link))**
 
----
-```
+
 
 
 ---

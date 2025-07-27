@@ -1,4 +1,3 @@
-
 # 📊 Uber Data Analysis Project Report 🚖✨  
 *Driven by Curiosity. Powered by Data.*  
 
@@ -25,11 +24,11 @@ To work with real-world datasets, the **first step** was enabling access to data
 
 ### 📸 Visual Summary:
 
-| Install Package | Upload Key | Move Key | Download Dataset |
-|-----------------|------------|----------|------------------|
-| ![Step 1](...)  | ![Step 2](...) | ![Step 3](...) | ![Step 4](...) |
+| Install Package               | Upload Key                   | Move Key                     | Download Dataset             |
+|------------------------------|------------------------------|------------------------------|------------------------------|
+| ![Step 1](images/step1.png)  | ![Step 2](images/step2.png)  | ![Step 3](images/step3.png)  | ![Step 4](images/step4.png)  |
 
-This automated approach not only saved time but helped simulate a real-world workflow of pulling production-ready datasets into an analytical pipeline.
+> ⚠️ Make sure to replace the image paths (`images/step1.png`, etc.) with the actual file names or links you're using.
 
 ---
 
@@ -49,7 +48,7 @@ These cleaning steps were essential to ensure accuracy in downstream analysis an
 
 ### 👀 Cleaned Data Preview:
 
-![Cleaned Data](...)
+![Cleaned Data](images/cleaned_data.png)
 
 ---
 
@@ -69,7 +68,7 @@ Here, I investigated how **average fares vary across the days of the week**. Thi
 
 Fridays and Mondays often show spikes, indicating demand or pricing effects due to rush hours or weekend transitions.
 
-![Average Fare by Weekday](...)
+![Average Fare by Weekday](images/avg_fare_weekday.png)
 
 ---
 
@@ -87,7 +86,7 @@ To uncover **daily ride rhythms**, I segmented the day into intuitive periods:
 
 Count how many rides occur in each segment and identify **peak demand hours**. Visualizing this helped illustrate commuter behavior and potential surge pricing zones.
 
-![Rides by Period](...)
+![Rides by Period](images/rides_by_period.png)
 
 ---
 
@@ -101,7 +100,7 @@ I broke the data down by **month and time of day** to explore ride activity thro
 🚦 *"What are the true rush hours?"*  
 By plotting total rides across all 24 hours, I could clearly see **peak periods** and potential business opportunities (e.g., boosting driver availability during spikes).
 
-![Seasonal and Hourly Charts](...)
+![Seasonal and Hourly Charts](images/seasonal_hourly.png)
 
 ---
 
@@ -117,7 +116,7 @@ A histogram helped visualize **fare distribution**, showing:
 - Most common fare range ($5–$15)  
 - Outliers with premium pricing (possibly long-distance or surge rides)
 
-This gave a strong sense of affordability and demand zones.
+![Fare Histogram](images/fare_histogram.png)
 
 ---
 
@@ -137,7 +136,7 @@ In this analysis, I merged Uber ride data with external **weather datasets**. Af
 
 Fares increased **noticeably on rainy and snowy days**, showing that bad weather leads to fewer drivers and higher demand — a classic surge situation.
 
-![Fare by Weather Condition](...)
+![Fare by Weather Condition](images/weather_fare_comparison.png)
 
 ---
 
@@ -152,7 +151,7 @@ To enhance exploration, I built slicers into my Power BI dashboard. These allow 
 
 This interactivity turns raw analysis into a story the user can control.
 
-![Power BI Filters](...)
+![Power BI Filters](images/filters_panel.png)
 
 ---
 
@@ -183,6 +182,3 @@ I learned how to turn a **basic dataset into a powerful narrative** that could s
 **Prepared by:** *Shema Placide (26497)*  
 **Lecturer:** *Maniraguha Eric*  
 **Course:** *Introduction to Big Data – Group B*  
-```
-
----

@@ -116,6 +116,3 @@ df.to_csv("D:/Uber_EDA_Enhanced.csv", index=False)
 
 ---
 
-> ⚠️ **Academic Integrity Note:**  
-This feature engineering process is customized with original logic and code. All transformations and new variables were carefully chosen to highlight unique insights in the dataset. This submission reflects independent and thoughtful work as per academic integrity standards.
-

@@ -12,7 +12,7 @@
 ## 🎯 Question 1: Getting Started with Kaggle in Jupyter Notebook
 
 🔓 *"Every great analysis starts with access!"*  
-To work with real-world datasets, the **first step** was enabling access to data from Kaggle. I successfully integrated the **Kaggle API** directly into my Jupyter environment, enabling seamless data retrieval without manual downloads. This process taught me how professionals source data efficiently for analytics projects.
+To work with real-world datasets, the **first step** was enabling access to data from Kaggle. I successfully integrated the **Kaggle API** directly into my Jupyter environment, enabling seamless data retrieval without manual downloads.
 
 ### 🔧 Setup Steps:
 
@@ -24,158 +24,133 @@ To work with real-world datasets, the **first step** was enabling access to data
 
 ### 📸 Visual Summary:
 
-| Install Package               | Upload Key                   | Move Key                     | Download Dataset             |
-|------------------------------|------------------------------|------------------------------|------------------------------|
-| ![Step 1](images/step1.png)  | ![Step 2](images/step2.png)  | ![Step 3](images/step3.png)  | ![Step 4](images/step4.png)  |
-
-> ⚠️ Make sure to replace the image paths (`images/step1.png`, etc.) with the actual file names or links you're using.
+| Install Package | Upload Key | Move Key | Download Dataset |
+|------------------|------------|----------|------------------|
+| ![Install](https://github.com/user-attachments/assets/361e3069-0d1a-4e3f-b673-23da3fcb715c) | ![Upload](https://github.com/user-attachments/assets/1c1fcb9a-c28a-4dae-84ab-1c0c1c1f4f3a) | ![Move](https://github.com/user-attachments/assets/912f28d3-c287-47bf-869b-4921d345d46a) | ![Download](https://github.com/user-attachments/assets/22be9ddf-457f-4647-aa10-951c94c78327) |
 
 ---
 
 ## 🧹 Question 1.5: Cleaning and Preparing the Data
 
 🧠 *"Good analysis begins with great data hygiene."*  
-Before diving into insights, I had to **clean and prepare the data** for use. Many real datasets are imperfect — containing missing values, unstructured timestamps, and irrelevant fields. I:
+Before diving into insights, I cleaned the dataset to ensure accuracy:
 
-- 🔍 Dropped unnecessary or redundant columns  
-- 🩹 Handled missing and inconsistent values  
-- ⏳ Converted string-based time into datetime format  
-- ➕ Created new features like:
-  - `ride_period` — time-based classification (e.g. Morning, Night)
-  - `fare_per_km` — a derived metric to show ride value  
-
-These cleaning steps were essential to ensure accuracy in downstream analysis and visualizations.
+- Dropped unnecessary columns  
+- Fixed missing or incorrect values  
+- Converted time columns to proper datetime format  
+- Created new columns like:
+  - `ride_period` (e.g., Morning, Night)
+  - `fare_per_km`
 
 ### 👀 Cleaned Data Preview:
 
-![Cleaned Data](images/cleaned_data.png)
+![Cleaned Data](https://github.com/user-attachments/assets/bd43d40a-20e1-45dc-be97-389f6101edf3)
 
 ---
 
 ## 📅 Question 2: Average Fare by Weekday
 
 📈 *"Is it more expensive to Uber on a Monday or Friday?"*  
-Here, I investigated how **average fares vary across the days of the week**. This helps us understand commuter habits and pricing patterns throughout the week.
 
-### 🛠️ Process:
+I analyzed how **average fares** change throughout the week by grouping rides by day and calculating the average fare.
 
-- Extracted **day of the week** from pickup timestamps  
-- Grouped ride data by weekday  
-- Calculated **average fare per day**  
-- Visualized using a bar chart in Power BI  
+### 📊 Visual Insight:
 
-### 🔍 Insight:
-
-Fridays and Mondays often show spikes, indicating demand or pricing effects due to rush hours or weekend transitions.
-
-![Average Fare by Weekday](images/avg_fare_weekday.png)
+![Average Fare by Weekday](https://github.com/user-attachments/assets/b2028304-de20-4d05-85e6-996efb58da33)
 
 ---
 
 ## ⏰ Question 3: Ride Patterns by Time of Day
 
-🕒 *"When is Uber busiest?"*  
-To uncover **daily ride rhythms**, I segmented the day into intuitive periods:
+🕒 *"When do people Uber the most?"*  
+I divided the day into four time blocks:
 
-- 🌅 Morning (5 AM – 11 AM)  
-- ☀️ Afternoon (12 PM – 4 PM)  
-- 🌇 Evening (5 PM – 8 PM)  
-- 🌙 Night (9 PM – 4 AM)
+- Morning (5 AM – 11 AM)  
+- Afternoon (12 PM – 4 PM)  
+- Evening (5 PM – 8 PM)  
+- Night (9 PM – 4 AM)
 
-### 🎯 Goal:
+Then I visualized ride frequency for each period.
 
-Count how many rides occur in each segment and identify **peak demand hours**. Visualizing this helped illustrate commuter behavior and potential surge pricing zones.
+### 🕗 Result:
 
-![Rides by Period](images/rides_by_period.png)
+![Rides by Period](https://github.com/user-attachments/assets/7777ef5e-3dd2-43d8-89ea-4f72543d8458)
 
 ---
 
 ## 🌦️ Question 4: Seasonal and Hourly Trends
 
-### a) 📆 Seasonal Trends by Period  
-💡 *"Do people ride more in summer or winter?"*  
-I broke the data down by **month and time of day** to explore ride activity through the seasons. This highlighted the connection between **climate or holidays** and rider habits.
+### a) Seasonal Trends by Time of Day
 
-### b) ⏳ Total Rides by Hour  
-🚦 *"What are the true rush hours?"*  
-By plotting total rides across all 24 hours, I could clearly see **peak periods** and potential business opportunities (e.g., boosting driver availability during spikes).
+To explore seasonality, I grouped ride counts by **month and period**. This helped spot trends like summer peaks or winter slowdowns.
 
-![Seasonal and Hourly Charts](images/seasonal_hourly.png)
+### b) Total Rides by Hour
+
+I plotted rides across the **24-hour clock** to identify exact rush hours.
+
+![Seasonal Trends by Period](https://github.com/user-attachments/assets/e2921faf-8bf6-4178-aad3-cef156036f65)  
+![Total Rides by Hour](https://github.com/user-attachments/assets/7de37dd0-9f5f-4c4a-acbe-cdc3fc4aab40)
 
 ---
 
 ## 🗺️ Question 5: Ride Locations and Fare Distribution
 
-### a) 📍 Mapping Pickup Points  
-📌 *"Where are the hotspots?"*  
-Using mapping tools in Power BI, I plotted pickup locations and sized them by fare amount — making it easy to spot **city centers** or **commercial zones** where ride activity is high.
+### a) Ride Map: Where Most Rides Happen
 
-### b) 💰 Fare Histogram  
-🧾 *"What do most people pay?"*  
-A histogram helped visualize **fare distribution**, showing:
-- Most common fare range ($5–$15)  
-- Outliers with premium pricing (possibly long-distance or surge rides)
+Mapped pickup locations and highlighted larger fares. Downtown areas stood out as high-density zones.
 
-![Fare Histogram](images/fare_histogram.png)
+![Ride Locations Map](https://github.com/user-attachments/assets/735c9cb3-a79b-4366-8489-3b9393a62c14)
 
----
+### b) Fare Histogram: Most Common Prices
 
-## 🌧️ Question 6: Weather vs Fares
+This histogram shows most rides cost between $5 and $15.
 
-☁️ *"Does weather influence ride pricing?"*  
-In this analysis, I merged Uber ride data with external **weather datasets**. After cleaning both sources, I grouped them by weather condition (sunny, rainy, snowy) and checked the impact on **average fare**.
-
-### 🧪 Key Steps:
-
-- Normalized weather columns (temperature, precipitation, etc.)  
-- Joined weather and Uber data by date  
-- Aggregated rides by weather category  
-- Created stacked column charts for clear comparison  
-
-### 🔍 Result:
-
-Fares increased **noticeably on rainy and snowy days**, showing that bad weather leads to fewer drivers and higher demand — a classic surge situation.
-
-![Fare by Weather Condition](images/weather_fare_comparison.png)
+![Fare Amount Histogram](https://github.com/user-attachments/assets/b9e402a4-1e14-410a-a58a-eb8f23aec2b2)
 
 ---
 
-## 🕹️ Bonus: Interactive Power BI Filters
+## 🌧️ Question 6: Weather and Fare Relationship
 
-🧠 *"Data is best when it's in your control."*  
-To enhance exploration, I built slicers into my Power BI dashboard. These allow users to:
+☁️ *"Does weather affect prices?"*  
+I joined Uber and weather data by date, then grouped by weather condition. I found fares rise on rainy and snowy days due to demand surges.
 
-- Filter by **ride periods**
-- Toggle between **weekdays vs weekends**
-- Switch views between **peak vs off-peak times**
+### 📊 Visual Result:
 
-This interactivity turns raw analysis into a story the user can control.
-
-![Power BI Filters](images/filters_panel.png)
+![Fare by Weather Condition](https://github.com/user-attachments/assets/20346ae3-015b-4054-91cc-f4ad8911faca)
 
 ---
 
-## 📊 Power BI Dashboard
+## 🕹️ Bonus: Power BI Filters for Interaction
 
-You can **interact with the live dashboard** and view the .pbix files via Google Drive:
+Power BI slicers made it easy to explore data dynamically:
 
-🔗 **[👉 Click here to explore the Power BI Dashboard](https://drive.google.com/drive/folders/15BNRsMvfSwASdMMGL-sunkBO0sLBOgon?usp=drive_link)**
+- Filter by time of day  
+- Toggle weekday/weekend  
+- Highlight peak vs off-peak
 
-💡 *Explore trends by day, compare fare peaks, filter by ride segments — it's all in your hands.*
+📸 Dashboard View:
+
+<img width="677" height="440" alt="Bigdata" src="https://github.com/user-attachments/assets/5553e704-ae9c-43d1-81d4-8fe5f7e3fa52" />  
+<img width="959" height="476" alt="Dashboard" src="https://github.com/user-attachments/assets/1d87f403-66ae-4475-873c-2f9f33cff54b" />
+
+---
+
+## 📊 Power BI Dashboard Access
+
+📂 **Download / View Full Power BI Report**:  
+🔗 [Google Drive Link](https://drive.google.com/drive/folders/15BNRsMvfSwASdMMGL-sunkBO0sLBOgon?usp=drive_link)
 
 ---
 
 ## 🎉 Final Thoughts
 
-🚀 *"From raw data to real-world insight."*  
-This Uber data project helped me gain:
+This project sharpened my:
 
-- 💻 **Hands-on experience** with data cleaning in Python  
-- 📈 **Business intelligence skills** using Power BI  
-- 🧠 **Critical thinking** in asking meaningful questions  
-- 🌍 A better understanding of how **transportation, time, and weather** affect mobility
+- 🧹 Data cleaning skills  
+- 📈 Visual storytelling using Power BI  
+- 🔍 Pattern recognition in real-world mobility data  
 
-I learned how to turn a **basic dataset into a powerful narrative** that could support business or policy decisions. Every visual, every cleaned column, every calculated field was a step closer to uncovering patterns that matter.
+It was insightful to see how factors like time, location, and weather shape urban transportation.
 
 ---
 

@@ -165,9 +165,6 @@ No other content has been changed.
 
 ---
 
-### ✅ Add this right after the **Bonus: Interactive Filters in Power BI** section:
-
-```markdown
 ---
 
 ## 📊 Power BI Dashboard Access and Visualization

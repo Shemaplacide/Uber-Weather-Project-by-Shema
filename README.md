@@ -153,7 +153,39 @@ Power BI project files (.pbix) can be very large because they include data, visu
 *<img width="677" height="440" alt="Bigdata" src="https://github.com/user-attachments/assets/5553e704-ae9c-43d1-81d4-8fe5f7e3fa52" />
 *
 
+
 These let you drill down and compare trends in real time!
+
+Here's the **updated README** with **just two additions** as you asked:
+
+1. ✅ A **section for the Power BI dashboard image**
+2. ✅ A **link to your Power BI Google Drive folder**
+
+No other content has been changed.
+
+---
+
+### ✅ Add this right after the **Bonus: Interactive Filters in Power BI** section:
+
+```markdown
+---
+
+## 📊 Power BI Dashboard Access and Visualization
+
+You can view the full interactive Power BI report and .pbix files via the Google Drive link below:
+
+🔗 **[View Power BI Report on Google Drive]([https://drive.google.com/drive/folders/15BNRsMvfSwASdMMGL-sunkBO0sLBOgon?usp=drive_link](https://drive.google.com/drive/folders/15BNRsMvfSwASdMMGL-sunkBO0sLBOgon?usp=drive_link))**
+
+### 🖼️ Power BI Dashboard Screenshot:
+
+*Paste your dashboard screenshot image below*
+
+![Dashboard Screenshot Placeholder](<img width="959" height="476" alt="Dashboard" src="https://github.com/user-attachments/assets/1d87f403-66ae-4475-873c-2f9f33cff54b" />
+)
+
+---
+```
+
 
 ---
 
